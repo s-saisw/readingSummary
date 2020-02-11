@@ -13,6 +13,7 @@ Summary of ...
 - Economic Impact of Social Ties : Burchardi, K. B., & Hassan, T. A. (2013)
 - Educational Reform, Ability, and Family Background : Meghir, C., & Palme, M. (2005)
 - The Elasticity of Labor Supply at the Establishment Level : Falch, T. (2010)
+- Is There Monopsony in the Labor Market? Evidence from a Natural Experiment : Staiger, D.O., Spetz J., & Phibbs C.S. (2010)
 
 ### Minimum wage
 - Effects of the minimum wage on employment dynamics : Meer, J., & West, J. (2016)
