@@ -4,7 +4,7 @@ Pledge: I will read only abstract and introduction of recent labor economic pape
 
 Goal: 3 papers/week
 
-## Week 1
+## March, Week 1
 ### Powell (2020), JLE - Does labor supply respond to transitory income?
 - What is the impact of transitory income on short-term labor supply?
 - PIH posits that small one-time payment should not affect short term behavior of household.
@@ -22,3 +22,9 @@ Goal: 3 papers/week
 - This paper focuses on the Great US Recession (2003-2016).
 - The causes of involuntary part-time work are cyclical and structural factors (i.e. demand and supply determinants e.g. industry employment shares, labor costs, population demographics).
 - It finds that the effect cyclical factors disappears after 2010 but that of structural factors persists to 2016.
+
+## March, Week 2
+### Breining et al. (2020), JLE - Birth order & Deliquency
+- This paper employs data sets from two different settings: Denmark and Florida.
+- Second-born boys are more likely to be enter criminal justice system than first borns. 
+- The effect is likely to come through parental time investment. The use of daycare is more intensive for the second born boys.
