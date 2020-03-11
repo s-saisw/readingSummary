@@ -25,6 +25,13 @@ Goal: 3 papers/week
 
 ## March, Week 2
 ### Breining et al. (2020), JLE - Birth order & Deliquency
+- Are younger siblings more deliquent that their older ones?
 - This paper employs data sets from two different settings: Denmark and Florida.
 - Second-born boys are more likely to be enter criminal justice system than first borns. 
 - The effect is likely to come through parental time investment. The use of daycare is more intensive for the second born boys.
+
+### Felfe et al. (2020), JLE - Birthright citizenship
+- Does the introduction of birthright citizenship improve immigrant's educational outcomes?
+- This paper employs a natural experiment in Germany. Before 2000, citizenship only comes from blood, but after that anyone born within German territory become German citizens. It uses Jan 1, 2000 as cutoff and compares individuals born shortly before and shortly after the cutoff date.
+- The introduction of birthright citizenship leads to increase in non-compulsory preschool attendance.
+- Exogeneity of cutoff date?
