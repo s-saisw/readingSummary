@@ -35,3 +35,10 @@ Goal: 3 papers/week
 - This paper employs a natural experiment in Germany. Before 2000, citizenship only comes from blood, but after that anyone born within German territory become German citizens. It uses Jan 1, 2000 as cutoff and compares individuals born shortly before and shortly after the cutoff date.
 - The introduction of birthright citizenship leads to increase in non-compulsory preschool attendance.
 - Exogeneity of cutoff date?
+
+### Rizzica (2020), JLE - Aspiration and higher education
+- What is the impact of an outreach policy &rarr; aspiration &rarr; college enrollment?
+- It is unclear in the literature whether pupils from low socioeconomic background do not enroll in college because of financial constraint or because of their personal preference. 
+- This paper utilizes a natural experiment in the UK. Widening participation (WP) policy is imposed on chidren whose neighborhood has college enrollment rate lower than certain threshold value. &rarr; RDD
+- WP policy raises aspiration but does not raise college enrollment rate. There is also no impact on cognitive skills.
+- This implies financial constraint, and/or lower skills.
