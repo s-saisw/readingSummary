@@ -36,9 +36,17 @@ Goal: 3 papers/week
 - The introduction of birthright citizenship leads to increase in non-compulsory preschool attendance.
 - Exogeneity of cutoff date?
 
-### Rizzica (2020), JLE - Aspiration and higher education
+### Rizzica (2020), JLE - Aspiration & higher education
 - What is the impact of an outreach policy &rarr; aspiration &rarr; college enrollment?
 - It is unclear in the literature whether pupils from low socioeconomic background do not enroll in college because of financial constraint or because of their personal preference. 
 - This paper utilizes a natural experiment in the UK. Widening participation (WP) policy is imposed on chidren whose neighborhood has college enrollment rate lower than certain threshold value. &rarr; RDD
 - WP policy raises aspiration but does not raise college enrollment rate. There is also no impact on cognitive skills.
 - This implies financial constraint, and/or lower skills.
+
+## March, Week 3
+### Mezza et al. (2020), JLE - Student loans & homeownership
+- What is the effect of student loan debt to subsequent homeownership?
+- This paper combines IV method with treatment-control group framework. Treatment group = those who went to public universities, Control group = others. Control group helps absorbs the effect of state's economic conditions. 
+- Nevertheless, there may be some OMV e.g. career prospect. This paper employs state average tuition as IV. State average tuition fee satisfies exclusion restriction because it does not correlate with any individual characteristic. 
+- Caveat: selection into treatment group
+- It finds that student loans hinder homeownership.
