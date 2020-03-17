@@ -47,6 +47,12 @@ Goal: 3 papers/week
 ### Mezza et al. (2020), JLE - Student loans & homeownership
 - What is the effect of student loan debt to subsequent homeownership?
 - This paper combines IV method with treatment-control group framework. Treatment group = those who went to public universities, Control group = others. Control group helps absorbs the effect of state's economic conditions. 
-- Nevertheless, there may be some OMV e.g. career prospect. This paper employs state average tuition as IV. State average tuition fee satisfies exclusion restriction because it does not correlate with any individual characteristic. 
+- Nevertheless, there may be some OVB e.g. career prospect. This paper employs state average tuition as IV. State average tuition fee satisfies exclusion restriction because it does not correlate with any individual characteristic. 
 - Caveat: selection into treatment group
 - It finds that student loans hinder homeownership.
+
+### Ginja et al. (2020), JLE - Parental leave, labor supply decision, & children's long-run outcomes
+- What is the effect of parental leave benefits &rarr; labor supply &rarr; child outcome?
+- Mothers can keep the parental leave benefits for if two children were born within a prespecified interval. In 1980, the interval was increased to 24 months, and in 1986, to 30 months &rarr; RDD
+- The policy reduces labor supply but there is no impact on disposable income &larr; labor earnings are compensated by leave benefits. There are effects only in the short run.
+- The policy increases the educational outcome of the older child but not the younger one. &rarr; birth spacing literature
