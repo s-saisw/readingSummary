@@ -56,3 +56,5 @@ Goal: 3 papers/week
 - Mothers can keep the parental leave benefits for if two children were born within a prespecified interval. In 1980, the interval was increased to 24 months, and in 1986, to 30 months &rarr; RDD
 - The policy reduces labor supply but there is no impact on disposable income &larr; labor earnings are compensated by leave benefits. There are effects only in the short run.
 - The policy increases the educational outcome of the older child but not the younger one. &rarr; birth spacing literature
+
+### (2020), JLE
