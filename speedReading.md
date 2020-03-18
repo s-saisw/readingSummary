@@ -57,4 +57,9 @@ Goal: 3 papers/week
 - The policy reduces labor supply but there is no impact on disposable income &larr; labor earnings are compensated by leave benefits. There are effects only in the short run.
 - The policy increases the educational outcome of the older child but not the younger one. &rarr; birth spacing literature
 
-### (2020), JLE
+### Doleac et al. (2020), JLE - Hidden criminal histories & statistical discrimination
+- Ban the Box (BTB) policy prevents employers asking job applicants' criminal records. However, this policy may increase statistical discrimination against certain demographic groups.
+- What is the impact of BTB policy on probability of employment?
+- This paper employs the timing and adoption of BTB policy as source of exogenous variation.
+- If BTB does not exacerbate statistical discrimination, we expect to see an increase in employment among groups with lots of ex-offenders. If BTB exacerbates discrimination, we will see BTB reducing employment of this group but not others.
+- Young low-skilled black men are less employed after BTB is imposed.Older, low-skilled black men and older, low-skilled Hispanic women are significantly more likely to be employed after BTB. &rarr; statistical-based discrimination (not taste-based)
