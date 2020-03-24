@@ -63,3 +63,10 @@ Goal: 3 papers/week
 - This paper employs the timing and adoption of BTB policy as source of exogenous variation.
 - If BTB does not exacerbate statistical discrimination, we expect to see an increase in employment among groups with lots of ex-offenders. If BTB exacerbates discrimination, we will see BTB reducing employment of this group but not others.
 - Young low-skilled black men are less employed after BTB is imposed.Older, low-skilled black men and older, low-skilled Hispanic women are significantly more likely to be employed after BTB. &rarr; statistical-based discrimination (not taste-based)
+
+## March, Week 4
+### Bates (2020), JLE - Public & private employer learning
+- Current employer knows more about the worker than other prospective employers &rarr; employer and worker enjoy rents from employment relationship &rarr; MPL>wage. If information on productivity becomes available for employers, workers should move accordingly.
+- However, evidence for this story is scarce because there usually is no data set that contains worker's productivity nor exogenous variation for informational setting.
+- Some districts adopt value-added (VA) measure to quantify teacher's productivity. 
+- In districts with public VA measure, good teachers move within districts to better schools. In districts with private VA, bad teachers move to another district.
