@@ -70,3 +70,11 @@ Goal: 3 papers/week
 - However, evidence for this story is scarce because there usually is no data set that contains worker's productivity nor exogenous variation for informational setting.
 - Some districts adopt value-added (VA) measure to quantify teacher's productivity. 
 - In districts with public VA measure, good teachers move within districts to better schools. In districts with private VA, bad teachers move to another district.
+
+### Fryer Jr. & Howard-Noveck (2020), JLE - High dosage tutoring
+- What is the impact of intensive tutoring for disadvantaged groups?
+- This study uses RCT at school-level.
+- High-dosage tutoring has more positive impact on black students than hispanic students.
+- Implication: teachers who have the same students all day are able to better understand the “state” their students are in relative to teachers who see many more students for an hour a day
+
+### Nagler et al. (2020), JLE - 
