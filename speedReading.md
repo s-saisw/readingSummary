@@ -78,3 +78,4 @@ Goal: 3 papers/week
 - Implication: teachers who have the same students all day are able to better understand the “state” their students are in relative to teachers who see many more students for an hour a day
 
 ### Nagler et al. (2020), JLE - 
+- RQ
