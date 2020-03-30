@@ -79,8 +79,14 @@ Goal: 3 papers/week
 - High-dosage tutoring has more positive impact on black students than hispanic students.
 - Implication: teachers who have the same students all day are able to better understand the “state” their students are in relative to teachers who see many more students for an hour a day
 
-### Marinescu & Wolthoff (2020) - Job titles
+### Marinescu & Wolthoff (2020), JLE - Job titles
 - What is the relationship between wage and labor supply?
 - Within the same occupation, wage and labor supply has negative relationship. However, once job title is controlled for, the relationship becomes positive.
 - Job titles may be a better control for the job characteristics than 6-digit SOC since it is determined by employer rather than researcher and therefore better reflects hierachy and specialization.
 - This paper uses rich data from CareerBuilder.com
+
+## April, Week 1
+### Li & Goetz (2019), JLE - Intergenerational self-employment :fire:
+- It is unclear in the literature whether intergenerational self-employment persists because of inheritance or preference.
+- This paper uses transition into China's planned economy era as natural experiment. There is no inheriting business in this time period.
+- Children whose parents were self-employed are more likely to be self-employed even though they were not directly exposed to the family business. &rarr; lifestyle matters more
