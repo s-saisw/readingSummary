@@ -90,3 +90,10 @@ Goal: 3 papers/week
 - It is unclear in the literature whether intergenerational self-employment persists because of inheritance or preference.
 - This paper uses transition into China's planned economy era as natural experiment. There is no inheriting business in this time period.
 - Children whose parents were self-employed are more likely to be self-employed even though they were not directly exposed to the family business. &rarr; lifestyle matters more
+
+### Phelan (2019), JLE - Hedonic based labor supply substitution of MW
+- This paper explains why ripple effect occurs. 
+    1. Firm substitutes low-skilled workers for high-skilled ones &rarr; Higher demand for HSW &rarr; Higher wage for HSW
+    2. Non competitive factors e.g. internal wage structure
+    3. MW jobs have better working conditions. Workers leave jobs that pay higher than MW to MW jobs &rarr; lower supply for those jobs 
+- Ripple effect is an increasing function of hedonic compensation
