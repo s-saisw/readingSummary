@@ -95,5 +95,10 @@ Goal: 3 papers/week
 - This paper explains why ripple effect occurs. 
     1. Firm substitutes low-skilled workers for high-skilled ones &rarr; Higher demand for HSW &rarr; Higher wage for HSW
     2. Non competitive factors e.g. internal wage structure
-    3. MW jobs have better working conditions. Workers leave jobs that pay higher than MW to MW jobs &rarr; lower supply for those jobs 
+    3. MW jobs have better working conditions. Workers leave jobs that pay higher than MW to MW jobs &rarr; lower supply for those jobs "Hedonic based substitution"
 - Ripple effect is an increasing function of hedonic compensation
+
+### Ly et al. (2020), JLE - Elite tutoring
+- What is the impact of tutoring only best students from underprivileged schools?
+- The paper employs RCT.
+- The impact is ambiguous because students spent more time on the program and new friends instead of academic work.
