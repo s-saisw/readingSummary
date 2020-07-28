@@ -102,3 +102,13 @@ Goal: 3 papers/week
 - What is the impact of tutoring only best students from underprivileged schools?
 - The paper employs RCT.
 - The impact is ambiguous because students spent more time on the program and new friends instead of academic work.
+
+## July, Week 4
+### Bianchi (2020), JLE - Education expansion
+- What is the impact of education expansion on learning and long-run income?
+- Educational expansion can decrease learning by overcrowding resources, increases heterogeneity of students in a class, or drive down wages of marginal students.
+- It is usually difficult to see who is the marginal student affected by the educational expansion. This paper exploits educational expansion that affects only a specific group of high school students - those from industry-professional high schools.
+- This creates differential preparedness to some classes in college as they (Type B) have different background from students from university prep high schools (Type A). Type B studied less math and more engineering.
+- It finds that ...
+    - Grades of Type A decrease in math classes but increases in engineering classes with many Type B.
+    - Long-run wage of Type A also decreases.
