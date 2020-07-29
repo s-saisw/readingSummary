@@ -112,3 +112,8 @@ Goal: 3 papers/week
 - It finds that ...
     - Grades of Type A decrease in math classes but increases in engineering classes with many Type B.
     - Long-run wage of Type A also decreases.
+
+### Groen et al. (2020), JLE - Hurricance on earnings
+- This paper looks at the impact of Hurricane Katrina on earnings.
+- There is an immediate short-term earning losses but there is long-run wage gain due to labor demand.
+- Contribution of this paper is it uses a data set that can track individuals over time instead of geographic-based identification.
