@@ -117,3 +117,8 @@ Goal: 3 papers/week
 - This paper looks at the impact of Hurricane Katrina on earnings.
 - There is an immediate short-term earning losses but there is long-run wage gain due to labor demand.
 - Contribution of this paper is it uses a data set that can track individuals over time instead of geographic-based identification.
+
+### Goodman et al. (2019), JLE - Online education
+- This paper studies an online master-degree level education in Computer Science.
+- Applicants for the online course are about 10 years older than those of in-person couse.
+- Using RDD, it finds online course increases enrollment by 20 percentage points.
