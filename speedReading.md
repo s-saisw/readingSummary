@@ -122,3 +122,12 @@ Goal: 3 papers/week
 - This paper studies an online master-degree level education in Computer Science.
 - Applicants for the online course are about 10 years older than those of in-person couse.
 - Using RDD, it finds online course increases enrollment by 20 percentage points.
+
+### Monras (2019), JLE - Minimum wage and spatial equilibrium
+- This paper presents a theoretical model and empirical evidence on the impact of minimum wages increase on internal migration.
+- Theoretical part:
+    - A region attracts migrants if the benefit from increased wage is larger than disemployment effect.
+    - If disemployment effect is larger than benefit from incrreased wage,  a region can still attract migrants if unemployment benefits are large enough.
+- Empirical part:
+    - Employment reacts more than average wage.
+    - Low-skilled workers are the most affected.
