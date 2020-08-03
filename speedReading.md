@@ -131,3 +131,7 @@ Goal: 3 papers/week
 - Empirical part:
     - Employment reacts more than average wage.
     - Low-skilled workers are the most affected.
+
+### Connolly (2019), JLE - Intergenerational mobility in US VS Canada
+- This paper compares intergenerational mobility in US to Canada.
+- Canada has more mobility than US. Souther region of Canada is more mobile.
