@@ -132,6 +132,13 @@ Goal: 3 papers/week
     - Employment reacts more than average wage.
     - Low-skilled workers are the most affected.
 
+## August, Week 1
+
 ### Connolly (2019), JLE - Intergenerational mobility in US VS Canada
 - This paper compares intergenerational mobility in US to Canada.
 - Canada has more mobility than US. Souther region of Canada is more mobile.
+
+### Kuziemko (2014), JLE - Do parents learn from or lean on their children?
+- This paper examines whether parents learn skills from their children or they let children perform that skill.
+- If children acquire skill exogenously, parents' cost of learning may fall because children can teach the skill to them, but benefit of learning that skill is also smaller.
+- It finds empirical evidence that in areas where English is more emphasized at school, parents of migrant families are less likely to learn English.
