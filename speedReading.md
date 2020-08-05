@@ -142,3 +142,8 @@ Goal: 3 papers/week
 - This paper examines whether parents learn skills from their children or they let children perform that skill.
 - If children acquire skill exogenously, parents' cost of learning may fall because children can teach the skill to them, but benefit of learning that skill is also smaller.
 - It finds empirical evidence that in areas where English is more emphasized at school, parents of migrant families are less likely to learn English.
+
+### Manning et al. (2020), AER - How local are labor markets?
+- If a labor market is local, it is more useful to implement a policy only to the target area.
+- This paper uses a structural model to estimate the parameteres by minimizing distance between predicted number of job application for each area and observed vacancy filling rate.
+- Workers are less likely to apply for a job where they face a lot of competitors; distance hinders application; metropolitan areas do not necessarily have more matchings.
