@@ -11,6 +11,21 @@
 
 Most of the previous studies from Japan, including Higuchi (1994), Shigeno and Ookusa (1998), Suruga and Cho (2003), Imada and Ikeda (2006) and Sato and Ma (2007), have found that PL provision increases female employment. They use variation in leave availability across employers or leave-taking by employees, but their estimates are likely to suffer biases due to the self-selection into PL take-up and/or employers that offer generous PL. - Yamaguchi (2017)
 
+### Yamaguchi (2016)
+- **Data**: Japanese Panel Survey of Consumers 1993-2012
+- **Sample restriction**: Married women who completed schooling and are not self-employed
+- **Y**: Female employment
+- **X**: Parental leave policy (Job protection & Cash benefit)
+- **Change in X**: 
+    - 1992: Job protection with no cash benefit for regular workers
+    - 1995: Job protection with 25% cash benefit for regular workers
+    - 2001: Job protection with 40% cash benefit for regular workers
+    - 2005: Job protection with 40% cash benefit for regular/non-regular workers workers
+    - 2007: Job protection with 50% cash benefit for regular/non-regular workers workers
+- **Beta** (Counterfactual exercise): 
+    - One (Three) year of job protection increases the probability of work after child-bearing by 0.54 (0.53).
+    - Cash benefits have little effect.
+
 ### Asai (2012)
 - **Data**: Japanese Employment Status Survey 1997-2002
 - **Sample restriction**: Mothers with regular employment status 3 years before giving birth to first child
@@ -18,8 +33,6 @@ Most of the previous studies from Japan, including Higuchi (1994), Shigeno and O
 - **X**: Reform eligibility
 - **Change in X**: Amount of cash benefit was raised from 25% to 40% of wage in 2001. This paper compares outcomes of mothers before and after the reform.
 - **Beta**: Increase in the amount of cash benefit did not increase job continutiy
-
-### Yamaguchi (2016)
 
 ## Childcare facility
 
