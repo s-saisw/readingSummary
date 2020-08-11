@@ -8,7 +8,6 @@
 
 ## Parental leave policy
 
-
 Most of the previous studies from Japan, including Higuchi (1994), Shigeno and Ookusa (1998), Suruga and Cho (2003), Imada and Ikeda (2006) and Sato and Ma (2007), have found that PL provision increases female employment. They use variation in leave availability across employers or leave-taking by employees, but their estimates are likely to suffer biases due to the self-selection into PL take-up and/or employers that offer generous PL. - Yamaguchi (2017)
 
 ### Yamaguchi (2016)
@@ -52,8 +51,23 @@ Most of the previous studies from Japan, including Higuchi (1994), Shigeno and O
     - This is because mothers substitute accredited childcare facility by informal childcare arrangement provided by grandparents.
 
 ### Nishitateno & Shikata (2017)
+- **Data**: Authors' own data set constructed at municipality level 2000, 2005, 2010 from Population Census and Survey of Welfare Institutions
+- **Sample restriction**: Mothers with age 0-5 years
+- **Y**: Maternal employment rate
+- **X**: Daycare accessibility
+    - Quota of daycare/population of children age 0-5
+- **Change in X**: 
+    - 2001 "Zero Wait-listed Children" policy to increase quota of daycare
+    - Accessibility increased by 7 percentage points from 2001 to 2010
+- **Beta**: One percentage points increase in daycare accessibilty increases maternal employment rate by 0.11 percentage points
 
 ### Takaku (2019)
+- **Data**: 
+- **Sample restriction**: 
+- **Y**: 
+- **X**: 
+- **Change in X**: 
+- **Beta**: 
 
 ## Gender social norm
 ### Rodríguez-Planas & Tanaka (2018)
@@ -70,7 +84,15 @@ Most of the previous studies from Japan, including Higuchi (1994), Shigeno and O
     - No impact on decision to work part-time
 
 
+## Husband's income
 
+### Yoshikawa & Ohtake (1989)
+- **Data**: 
+- **Sample restriction**: 
+- **Y**: 
+- **X**: 
+- **Change in X**: 
+- **Beta**: 
 
 
 Shigeno and Ookusa (1999), Higuchi, Matsuura, and Sato (2007), Unayama
