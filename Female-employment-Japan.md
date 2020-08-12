@@ -33,7 +33,7 @@ Most of the previous studies from Japan, including Higuchi (1994), Shigeno and O
 - **Change in X**: Amount of cash benefit was raised from 25% to 40% of wage in 2001. This paper compares outcomes of mothers before and after the reform.
 - **Beta**: Increase in the amount of cash benefit did not increase job continutiy
 
-## Childcare facility
+## Expansion of Childcare Facility
 
 ### Asai et al. (2016)
 - **Data**: Prefecture panel data constructed from Japanese quinquennial census 1990-2010
@@ -61,15 +61,18 @@ Most of the previous studies from Japan, including Higuchi (1994), Shigeno and O
     - Accessibility increased by 7 percentage points from 2001 to 2010
 - **Beta**: One percentage points increase in daycare accessibilty increases maternal employment rate by 0.11 percentage points
 
+## Family Structure
 ### Takaku (2019)
-- **Data**: 
-- **Sample restriction**: 
-- **Y**: 
-- **X**: 
-- **Change in X**: 
+- **Data**: Japanese Panel Survey of Consumers 1993-2012
+- **Sample restriction**: Mothers whose first-born went to daycare as pre-schoolers
+- **Y**: Whether mother works
+- **X**: Nuclear VS Three-generation household, timing of school entry of the child
+- **Change in X**: (No particular policy change)
 - **Beta**: 
+    - It is more difficult for mothers of nuclear families to work
+    - The difference is more striking during the time of school entry
 
-## Gender social norm
+## Gender norm
 ### Rodríguez-Planas & Tanaka (2018)
 - **Data**: National Family Research of Japan Survey 1999, 2004, 2009
 - **Sample restriction**: Women between 28-59 years old
@@ -87,6 +90,34 @@ Most of the previous studies from Japan, including Higuchi (1994), Shigeno and O
 ## Husband's income
 
 ### Yoshikawa & Ohtake (1989)
+- **Data**: 
+- **Sample restriction**: 
+- **Y**: 
+- **X**: 
+- **Change in X**: 
+- **Beta**: 
+
+## FDI
+
+### Kodama et al. (2018)
+- **Data**: 
+- **Sample restriction**: 
+- **Y**: 
+- **X**: 
+- **Change in X**: 
+- **Beta**: 
+
+### Kucera (2001)
+- **Data**: 
+- **Sample restriction**: 
+- **Y**: 
+- **X**: 
+- **Change in X**: 
+- **Beta**: 
+
+## Working condition
+
+### Izumi et al. (2013)
 - **Data**: 
 - **Sample restriction**: 
 - **Y**: 
