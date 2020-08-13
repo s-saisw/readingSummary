@@ -100,24 +100,16 @@ Most of the previous studies from Japan, including Higuchi (1994), Shigeno and O
 ## FDI
 
 ### Kodama et al. (2018)
-- **Data**: 
-- **Sample restriction**: 
-- **Y**: 
-- **X**: 
-- **Change in X**: 
+- **Data**: Corporate Social Responsibility (CSR) Survey 2004-2014, Establishment and Enterprise Census 1996, 2001, 2004, 2006, 2009
+- **Sample restriction**: listed companies, large non-listed companies, companies with 50 or more employees and the value of capital of at least 30 million yen.
+- **Y**: Share of female workers
+- **X**: Foreign affiliates VS Japanese firms
+- **Change in X**: Affiliation with foreign firms, and timing of acquisition
 - **Beta**: 
+    - Proportion of females becomes 7-9 percentage points higher in foreign affiliate firms two years after acquisition.
+    - Foreign affiliates are more likely to offer flexible working arrangements, childcare facilities or childcare subsidies.
 
 ### Kucera (2001)
-- **Data**: 
-- **Sample restriction**: 
-- **Y**: 
-- **X**: 
-- **Change in X**: 
-- **Beta**: 
-
-## Working condition
-
-### Izumi et al. (2013)
 - **Data**: 
 - **Sample restriction**: 
 - **Y**: 
