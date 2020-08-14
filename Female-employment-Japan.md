@@ -33,7 +33,7 @@ Most of the previous studies from Japan, including Higuchi (1994), Shigeno and O
 - **Change in X**: Amount of cash benefit was raised from 25% to 40% of wage in 2001. This paper compares outcomes of mothers before and after the reform.
 - **Beta**: Increase in the amount of cash benefit did not increase job continutiy
 
-## Expansion of Childcare Facility
+## Childcare Facility
 
 ### Asai et al. (2016)
 - **Data**: Prefecture panel data constructed from Japanese quinquennial census 1990-2010
@@ -60,6 +60,17 @@ Most of the previous studies from Japan, including Higuchi (1994), Shigeno and O
     - 2001 "Zero Wait-listed Children" policy to increase quota of daycare
     - Accessibility increased by 7 percentage points from 2001 to 2010
 - **Beta**: One percentage points increase in daycare accessibilty increases maternal employment rate by 0.11 percentage points
+
+### Nishitateno (2019)
+- **Data**: Authors' own data set constructed at municipality level 2000, 2005, 2010 from Population Census and Survey of Welfare Institutions
+- **Sample restriction**: 
+- **Y**: Maternal employment rate
+- **X**: Privatization of daycare
+    - measured by privatization rate in the municipality
+- **Change in X**: 
+    - Daycare privatization rate increases from 47.7% in 2000 to 58.7% in 2010
+- **Beta**: 
+    - 1 percentage points increase in privatized day care increases maternal employment rate by 0.02 percentage points.
 
 ## Family Structure
 ### Takaku (2019)
@@ -116,7 +127,6 @@ Most of the previous studies from Japan, including Higuchi (1994), Shigeno and O
 - **X**: 
 - **Change in X**: 
 - **Beta**: 
-
 
 Shigeno and Ookusa (1999), Higuchi, Matsuura, and Sato (2007), Unayama
 (2011), and Abe (2013).
