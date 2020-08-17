@@ -6,6 +6,7 @@
 | :-------------: |:-------------| :-----|:-----:|:-----:|:-----:|:-----:|
 |Asai (2012)|Japanese Employment Status Survey 1997-2002 |Mothers with regular employment status 3 years before giving birth to first child ||| Amount of cash benefit was raised from 25% to 40% in 2001
 
+***
 ## Parental leave policy
 
 Most of the previous studies from Japan, including Higuchi (1994), Shigeno and Ookusa (1998), Suruga and Cho (2003), Imada and Ikeda (2006) and Sato and Ma (2007), have found that PL provision increases female employment. They use variation in leave availability across employers or leave-taking by employees, but their estimates are likely to suffer biases due to the self-selection into PL take-up and/or employers that offer generous PL. - Yamaguchi (2017)
@@ -33,6 +34,7 @@ Most of the previous studies from Japan, including Higuchi (1994), Shigeno and O
 - **Change in X**: Amount of cash benefit was raised from 25% to 40% of wage in 2001. This paper compares outcomes of mothers before and after the reform.
 - **Beta**: Increase in the amount of cash benefit did not increase job continutiy
 
+***
 ## Childcare Facility
 
 ### Asai et al. (2016)
@@ -72,7 +74,6 @@ Most of the previous studies from Japan, including Higuchi (1994), Shigeno and O
 - **Beta**: 
     - 1 percentage points increase in privatized day care increases maternal employment rate by 0.02 percentage points.
 
-## Family Structure
 ### Takaku (2019)
 - **Data**: Japanese Panel Survey of Consumers 1993-2012
 - **Sample restriction**: Mothers whose first-born went to daycare as pre-schoolers
@@ -83,6 +84,7 @@ Most of the previous studies from Japan, including Higuchi (1994), Shigeno and O
     - It is more difficult for mothers of nuclear families to work
     - The difference is more striking during the time of school entry
 
+***
 ## Gender norm
 ### Rodríguez-Planas & Tanaka (2018)
 - **Data**: National Family Research of Japan Survey 1999, 2004, 2009
@@ -97,18 +99,24 @@ Most of the previous studies from Japan, including Higuchi (1994), Shigeno and O
     - One percentage point increase in share of individuals with non-traditional beliefs increases the standard deviation of women’s decision to work by 0.016 percentage points.
     - No impact on decision to work part-time
 
+***
+## Fertility
 
-## Husband's income
-
-### Yoshikawa & Ohtake (1989)
-- **Data**: 
-- **Sample restriction**: 
-- **Y**: 
-- **X**: 
+### Griffen et al. (2015)
+- **Data**: Longitudinal Survey of Newborns in the 21st Century,
+- **Sample restriction**: Japanese babies born between January 10–17 and July 10–17, 2001.
+- **Y**: Maternal employment
+- **X**: Number of children
+    - Number of children is instrumented by indicator for a twin birth.
 - **Change in X**: 
+    - Since 2012, Abe government has attempted to raise fertility rate in Japan.
 - **Beta**: 
+    - Number of children have little effect on maternal employment after instrumenting for twin occurrence.
+    - Occurrence of twins increases maternal labor supply in the long run.
+    - Effect seems to come from higher child cost and the absence of younger child in families with twins.
 
-## FDI
+***
+## Family-friendly working conditions
 
 ### Kodama et al. (2018)
 - **Data**: Corporate Social Responsibility (CSR) Survey 2004-2014, Establishment and Enterprise Census 1996, 2001, 2004, 2006, 2009
@@ -120,13 +128,13 @@ Most of the previous studies from Japan, including Higuchi (1994), Shigeno and O
     - Proportion of females becomes 7-9 percentage points higher in foreign affiliate firms two years after acquisition.
     - Foreign affiliates are more likely to offer flexible working arrangements, childcare facilities or childcare subsidies.
 
-### Kucera (2001)
+### Nagase (2017)
 - **Data**: 
-- **Sample restriction**: 
-- **Y**: 
-- **X**: 
+- **Sample restriction**:
+- **Y**: Female employment
+- **X**: Short hour option
 - **Change in X**: 
-- **Beta**: 
+- **Beta**:
 
 Shigeno and Ookusa (1999), Higuchi, Matsuura, and Sato (2007), Unayama
 (2011), and Abe (2013).
