@@ -116,7 +116,13 @@ Most of the previous studies from Japan, including Higuchi (1994), Shigeno and O
     - Effect seems to come from higher child cost and the absence of younger child in families with twins.
 
 ***
-## Family-friendly working conditions
+## Family-friendly company's policy
+
+
+for women to choose to
+work after childbirth, and for employed women to be able to have children, the policy must be
+accompanied by a family-friendly workplace culture. (Nagase, 2017) 
+group norms and group cultures are strong in Japan
 
 ### Kodama et al. (2018)
 - **Data**: Corporate Social Responsibility (CSR) Survey 2004-2014, Establishment and Enterprise Census 1996, 2001, 2004, 2006, 2009
@@ -129,12 +135,20 @@ Most of the previous studies from Japan, including Higuchi (1994), Shigeno and O
     - Foreign affiliates are more likely to offer flexible working arrangements, childcare facilities or childcare subsidies.
 
 ### Nagase (2017)
-- **Data**: 
-- **Sample restriction**:
+- **Data**: Japanese Longitudinal Survey of Adults in the 21st Century 2002-2012
+- **Sample restriction**: Women born from 1967 to 1982
 - **Y**: Female employment
-- **X**: Short hour option
+    - Measured by full-time permanent work status
+- **X**: Work-life balance policy
+    - Indicator for firm mandated by the government's work life balance policy
 - **Change in X**: 
+    - The government mandated that firms with more than 300 workers would be required to set up action plans to better the work-life balance of their employees by 2005.
+    - In 2009, the government announced that workers with children under three could request shorter work hours. This was applied to firms with 100 and more employees in 2010, and to all other firms from 2012.
 - **Beta**:
+    - Women at employed at firms with more than 100 workers were more likely to have up permanent employment after first childbirth.
+
+
+***
 
 Shigeno and Ookusa (1999), Higuchi, Matsuura, and Sato (2007), Unayama
 (2011), and Abe (2013).
