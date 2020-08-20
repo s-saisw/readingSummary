@@ -34,6 +34,24 @@ Most of the previous studies from Japan, including Higuchi (1994), Shigeno and O
 - **Change in X**: Amount of cash benefit was raised from 25% to 40% of wage in 2001. This paper compares outcomes of mothers before and after the reform.
 - **Beta**: Increase in the amount of cash benefit did not increase job continutiy
 
+### Asai (2019)
+- **Data**: Match establishment-worker data from Basic Survey on Wage Structure and Economic Census.
+- **Sample restriction**: 
+    - Workers with tenure less than two years
+    - Firms and establishments with ten or more employees
+    - Employees who are 18-60 years old
+- **Y**: 
+    - Probability of permanent employment
+    - Starting pay
+- **X**: Interaction between
+    - Employment costs of leave to the firm.
+    - Probability that a working woman eligible for leave has a child and thus goes on leave,
+- **Change in X**: 
+    - Firm's cost to parental leave policy is lowered over the years through reforms
+- **Beta**: 
+    - Reducing costs by the equivalent of a 100 thousand yen increases the probability of being hired as a permanent worker by 1.7 percent
+    - and increases starting wages by 2.5 percent.
+
 ***
 ## Childcare Facility
 
@@ -83,6 +101,19 @@ Most of the previous studies from Japan, including Higuchi (1994), Shigeno and O
 - **Beta**: 
     - It is more difficult for mothers of nuclear families to work
     - The difference is more striking during the time of school entry
+
+### Nagase (2018)
+- **Data**: LFS 2002-2015
+- **Sample restriction**: Married women aged 25-54 years
+- **Y**: 
+    - employment
+    - permanent contract regular employment
+- **X**: Abenomics indicator, as measured by interaction between
+    - Indicator for having a 0-3 year-old child
+    - Dummy for year 2013-2015
+- **Change in X**: 
+    - Abe cabinet took office in 2012
+- **Beta**: Abenomics increases employment (permanent employment) in women with young child by 0.03 (0.05) percentage points
 
 ***
 ## Gender norm
