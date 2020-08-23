@@ -180,6 +180,19 @@ group norms and group cultures are strong in Japan
 
 
 ***
+## Regulation Targeting Women
+
+### Kato & Kodama (2014)
+- **Data**: Population Census 1970-2010
+- **Sample restriction**: (None)
+- **Y**: Share of female in the job
+- **X**: Overtime restrictions on women
+    - Captured by a dummy variable on whether the job is exempted from overtime restrictions
+- **Change in X**: 
+    - Since 1947, women had been prohibited from working over time more than certain amount.
+    - In 1985, the restriction was lifted up for some occupations and industries.
+- **Beta**: 
+    - Female employment increases by 3.6 percent.
 
 Shigeno and Ookusa (1999), Higuchi, Matsuura, and Sato (2007), Unayama
 (2011), and Abe (2013).
