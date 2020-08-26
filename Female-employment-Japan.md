@@ -1,15 +1,12 @@
 # Female Employment in Japan
 
-## Overview
-
-| Paper        | Data | Sample | Y | X          | Change in X | beta  |
-| :-------------: |:-------------| :-----|:-----:|:-----:|:-----:|:-----:|
-|Asai (2012)|Japanese Employment Status Survey 1997-2002 |Mothers with regular employment status 3 years before giving birth to first child ||| Amount of cash benefit was raised from 25% to 40% in 2001
-
-***
 ## Parental leave policy
 
-Most of the previous studies from Japan, including Higuchi (1994), Shigeno and Ookusa (1998), Suruga and Cho (2003), Imada and Ikeda (2006) and Sato and Ma (2007), have found that PL provision increases female employment. They use variation in leave availability across employers or leave-taking by employees, but their estimates are likely to suffer biases due to the self-selection into PL take-up and/or employers that offer generous PL. - Yamaguchi (2017)
+<!--Most of the previous studies from Japan, including Higuchi (1994), Shigeno and Ookusa (1998), Suruga and Cho (2003), Imada and Ikeda (2006) and Sato and Ma (2007), have found that PL provision increases female employment. They use variation in leave availability across employers or leave-taking by employees, but their estimates are likely to suffer biases due to the self-selection into PL take-up and/or employers that offer generous PL. - Yamaguchi (2017)-->
+
+Parental leave policy is comprised of job protection and cash benefits. Job protection increases the probability of employment (Yamaguchi, 2016) but cash benefits have little effect. (Yamaguchi, 2016; Asai, 2012) 
+
+Nevertheless, early return to work after child birth still affects future probability of having full-time employment. (Kureishi et al., 2016)
 
 ### Yamaguchi (2016)
 - **Data**: Japanese Panel Survey of Consumers 1993-2012
@@ -35,7 +32,7 @@ Most of the previous studies from Japan, including Higuchi (1994), Shigeno and O
 - **Beta**: Increase in the amount of cash benefit did not increase job continutiy
 
 ### Asai (2019)
-- **Data**: Match establishment-worker data from Basic Survey on Wage Structure and Economic Census.
+- **Data**: Matched establishment-worker data from Basic Survey on Wage Structure and Economic Census.
 - **Sample restriction**: 
     - Workers with tenure less than two years
     - Firms and establishments with ten or more employees
@@ -46,29 +43,33 @@ Most of the previous studies from Japan, including Higuchi (1994), Shigeno and O
 - **X**: Interaction between
     - Employment costs of leave to the firm.
     - Probability that a working woman eligible for leave has a child and thus goes on leave,
-- **Change in X**: 
-    - Firm's cost to parental leave policy is lowered over the years through reforms
+- **Change in X**: Firm's cost to parental leave policy is lowered over the years through reforms
 - **Beta**: 
     - Reducing costs by the equivalent of a 100 thousand yen increases the probability of being hired as a permanent worker by 1.7 percent
     - and increases starting wages by 2.5 percent.
 
+### Kureishi et al. (2016)
+- **Data**: Longitudinal Survey of Newborns in the 21st Century 2001, 2002, 2004, 2011
+- **Sample restriction**: Babies born in 2001
+- **Y**: Mother's future employment status
+- **X**: Whether mother returns to work early
+- **Change in X**:
+    - Length of parental leave is instrumented by child's birth month
+    - The deadline of application to accredited childcare facility is in December of every year. Children born after that must wait until the following year.
+- **Beta**: Earlier return to work increases the probability of full-time employment
+
 ***
 ## Childcare Facility
 
-### Asai et al. (2016)
-- **Data**: Prefecture panel data constructed from Japanese quinquennial census 1990-2010
-- **Sample restriction**: Households with two parents and children under age 6
-- **Y**: Maternal employment rate at prefecture level
-- **X**: Childcare availability
-    - measured by capacity data drawn from annual Report on SocialWelfare Administration and Services and child population data from the Japanese quinquennial census 1990-2010.
+Evidence is mixed. While Nishitateno & Shikata (2017) and Nishitateno (2019) find expansion of childcare facility increases maternal employment using municipality level data, Asai et al. (2016) finds no correlation with prefecture level data and provides evidence for substitution between formal childcare facility and childcare service provided by grandparents. Takaku (2019) also finds evidence that supports this hypothesis.
+
+### Yamaguchi et al. (2018)
+- **Data**: 
+- **Sample restriction**: 
+- **Y**: 
+- **X**: 
 - **Change in X**: 
-    - Since early 1990s, the government launched a series of policies to raise childcare capacity.
-    - Variation comes from differential capacity across prefectures.
-        - In large cities, capacity increased because of the policies.
-        - In small cities, capacity remains almost constant because of the decline in number of child population.
 - **Beta**: 
-    - There is no correlation between childcare availability and maternal employment.
-    - This is because mothers substitute accredited childcare facility by informal childcare arrangement provided by grandparents.
 
 ### Nishitateno & Shikata (2017)
 - **Data**: Authors' own data set constructed at municipality level 2000, 2005, 2010 from Population Census and Survey of Welfare Institutions
@@ -90,7 +91,22 @@ Most of the previous studies from Japan, including Higuchi (1994), Shigeno and O
 - **Change in X**: 
     - Daycare privatization rate increases from 47.7% in 2000 to 58.7% in 2010
 - **Beta**: 
-    - 1 percentage points increase in privatized day care increases maternal employment rate by 0.02 percentage points.
+    - One percentage points increase in privatized day care increases maternal employment rate by 0.02 percentage points.
+
+### Asai et al. (2016)
+- **Data**: Prefecture panel data constructed from Japanese quinquennial census 1990-2010
+- **Sample restriction**: Households with two parents and children under age 6
+- **Y**: Maternal employment rate at prefecture level
+- **X**: Childcare availability
+    - measured by capacity data drawn from annual Report on Social Welfare Administration and Services and child population data from the Japanese quinquennial census 1990-2010.
+- **Change in X**: 
+    - Since early 1990s, the government launched a series of policies to raise childcare capacity.
+    - Variation comes from differential capacity across prefectures.
+        - In large cities, capacity increased because of the policies.
+        - In small cities, capacity remains almost constant because of the decline in number of child population.
+- **Beta**: 
+    - There is no correlation between childcare availability and maternal employment.
+    - This is because mothers substitute accredited childcare facility by informal childcare arrangement provided by grandparents.
 
 ### Takaku (2019)
 - **Data**: Japanese Panel Survey of Consumers 1993-2012
@@ -116,7 +132,36 @@ Most of the previous studies from Japan, including Higuchi (1994), Shigeno and O
 - **Beta**: Abenomics increases employment (permanent employment) in women with young child by 0.03 (0.05) percentage points
 
 ***
+## Working arrangement
+
+More family-friendly working arrangement can increase female employment. (Kodama et al., 2018; Nagase, 2017)
+
+### Kodama et al. (2018)
+- **Data**: Corporate Social Responsibility (CSR) Survey 2004-2014, Establishment and Enterprise Census 1996, 2001, 2004, 2006, 2009
+- **Sample restriction**: listed companies, large non-listed companies, companies with 50 or more employees and the value of capital of at least 30 million yen.
+- **Y**: Share of female workers
+- **X**: Foreign affiliates VS Japanese firms
+- **Change in X**: Affiliation with foreign firms, and timing of acquisition
+- **Beta**: 
+    - Proportion of females becomes 7-9 percentage points higher in foreign affiliate firms two years after acquisition.
+    - Foreign affiliates are more likely to offer flexible working arrangements, childcare facilities or childcare subsidies.
+
+### Nagase (2017)
+- **Data**: Japanese Longitudinal Survey of Adults in the 21st Century 2002-2012
+- **Sample restriction**: Women born from 1967 to 1982
+- **Y**: Female employment
+    - Measured by full-time permanent work status
+- **X**: Work-life balance policy
+    - Indicator for firm mandated by the government's work life balance policy
+- **Change in X**: 
+    - The government mandated that firms with more than 300 workers would be required to set up action plans to better the work-life balance of their employees by 2005.
+    - In 2009, the government announced that workers with children under three could request shorter work hours. This was applied to firms with 100 and more employees in 2010, and to all other firms from 2012.
+- **Beta**:
+    - Women at employed at firms with more than 100 workers were more likely to have up permanent employment after first childbirth.
+
+***
 ## Gender norm
+
 ### Rodríguez-Planas & Tanaka (2018)
 - **Data**: National Family Research of Japan Survey 1999, 2004, 2009
 - **Sample restriction**: Women between 28-59 years old
@@ -147,39 +192,6 @@ Most of the previous studies from Japan, including Higuchi (1994), Shigeno and O
     - Effect seems to come from higher child cost and the absence of younger child in families with twins.
 
 ***
-## Family-friendly company's policy
-
-
-for women to choose to
-work after childbirth, and for employed women to be able to have children, the policy must be
-accompanied by a family-friendly workplace culture. (Nagase, 2017) 
-group norms and group cultures are strong in Japan
-
-### Kodama et al. (2018)
-- **Data**: Corporate Social Responsibility (CSR) Survey 2004-2014, Establishment and Enterprise Census 1996, 2001, 2004, 2006, 2009
-- **Sample restriction**: listed companies, large non-listed companies, companies with 50 or more employees and the value of capital of at least 30 million yen.
-- **Y**: Share of female workers
-- **X**: Foreign affiliates VS Japanese firms
-- **Change in X**: Affiliation with foreign firms, and timing of acquisition
-- **Beta**: 
-    - Proportion of females becomes 7-9 percentage points higher in foreign affiliate firms two years after acquisition.
-    - Foreign affiliates are more likely to offer flexible working arrangements, childcare facilities or childcare subsidies.
-
-### Nagase (2017)
-- **Data**: Japanese Longitudinal Survey of Adults in the 21st Century 2002-2012
-- **Sample restriction**: Women born from 1967 to 1982
-- **Y**: Female employment
-    - Measured by full-time permanent work status
-- **X**: Work-life balance policy
-    - Indicator for firm mandated by the government's work life balance policy
-- **Change in X**: 
-    - The government mandated that firms with more than 300 workers would be required to set up action plans to better the work-life balance of their employees by 2005.
-    - In 2009, the government announced that workers with children under three could request shorter work hours. This was applied to firms with 100 and more employees in 2010, and to all other firms from 2012.
-- **Beta**:
-    - Women at employed at firms with more than 100 workers were more likely to have up permanent employment after first childbirth.
-
-
-***
 ## Regulation Targeting Women
 
 ### Kato & Kodama (2014)
@@ -194,6 +206,37 @@ group norms and group cultures are strong in Japan
 - **Beta**: 
     - Female employment increases by 3.6 percent.
 
-Shigeno and Ookusa (1999), Higuchi, Matsuura, and Sato (2007), Unayama
-(2011), and Abe (2013).
+***
+## References
+
+Asai, Y. (2012). Parental leave reforms and the employment of new mothers: Quasi-experimental evidence from Japan. Labour Economics, 36, 72–83. https://doi.org/10.1016/j.labeco.2015.02.007
+
+Asai, Y. (2019). Costs of Employment and Flexible Labor Demand: Evidence from Maternity and Parental Leave Reforms. SSRN Electronic Journal. https://doi.org/10.2139/ssrn.3362488
+
+Asai, Y., Kambayashi, R., & Yamaguchi, S. (2015). Crowding-Out Effect of Subsidized Childcare. Ssrn, 1–24. https://doi.org/10.2139/ssrn.2634283
+
+Asai, Y., Kambayashi, R., & Yamaguchi, S. (2015). Childcare availability, household structure, and maternal employment. Journal of the Japanese and International Economies, 38, 172–192. https://doi.org/10.1016/j.jjie.2015.05.009
+
+Griffen, A. S., Nakamuro, M., & Inui, T. (2015). Fertility and maternal labor supply in Japan: Conflicting policy goals? Journal of the Japanese and International Economies, 38, 52–72. https://doi.org/10.1016/j.jjie.2015.04.003
+
+Kato, T., & Kodama, N. (2018). Deregulating Overtime Hours Restrictions on Women and its Effects on Female Employment: Evidence from a Natural Experiment in Japan. Oxford Bulletin of Economics and Statistics, 80(4), 804–821. https://doi.org/10.1111/obes.12221
+
+Kodama, N., Javorcik, B. S., & Abe, Y. (2018). Transplanting corporate culture across international borders: Foreign direct investment and female employment in Japan. World Economy, 41(5), 1148–1165. https://doi.org/10.1111/twec.12612
+
+Kureishi, W., Mckenzie, C., Sakata, K., & Wakabayashi, M. (2016). Does a Mother ’ s Early Return to Work after Childbirth Improve Her Future Employment Status ? Evidence Using the Birth Month of Japanese Babies 1.
+
+Nagase, N. (2018). Has Abe’s Womanomics Worked? Asian Economic Policy Review, 13(1), 68–101. https://doi.org/10.1111/aepr.12202
+
+Nagase, N. (2017). The Effect of Family-Friendly Policies on Fertility and Maternal Labor Supply. SSRN Electronic Journal. https://doi.org/10.2139/ssrn.2965185
+
+Nishitateno, S. (2019). Does privatization of daycare affect maternal employment? Applied Economics Letters, 26(18), 1524–1527. https://doi.org/10.1080/13504851.2019.1584359
+
+Nishitateno, S., & Shikata, M. (2017). Has improved daycare accessibility increased Japan’s maternal employment rate? Municipal evidence from 2000–2010. Journal of the Japanese and International Economies, 44, 67–77. https://doi.org/10.1016/j.jjie.2017.04.002
+
+Rodríguez-planas, N. (2018). Gender Social Norms and Women ’ s Decision to Work Evidence from Japan. 34, 1–31.
+
+Takaku, R. (2019). The wall for mothers with first graders: availability of afterschool childcare and continuity of maternal labor supply in Japan. Review of Economics of the Household, 17(1), 177–199. https://doi.org/10.1007/s11150-017-9394-9
+
+Yamaguchi, S. (2019). Effects of parental leave policies on female career and fertility choices. Quantitative Economics, 10(3), 1195–1232. https://doi.org/10.3982/qe965
+
 
