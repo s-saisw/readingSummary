@@ -61,15 +61,7 @@ Nevertheless, early return to work after child birth still affects future probab
 ***
 ## Childcare Facility
 
-Evidence is mixed. While Nishitateno & Shikata (2017) and Nishitateno (2019) find expansion of childcare facility increases maternal employment using municipality level data, Asai et al. (2016) finds no correlation with prefecture level data and provides evidence for substitution between formal childcare facility and childcare service provided by grandparents. Takaku (2019) also finds evidence that supports this hypothesis.
-
-### Yamaguchi et al. (2018)
-- **Data**: 
-- **Sample restriction**: 
-- **Y**: 
-- **X**: 
-- **Change in X**: 
-- **Beta**: 
+Nishitateno & Shikata (2017) and Nishitateno (2019) find expansion of childcare facility increases maternal employment using municipality level data. However, Asai et al. (2016) finds no correlation with prefecture level data and provides evidence for substitution between formal childcare facility and childcare service provided by grandparents. Yamaguchi et al. (2018) find rationing rule favors mothers with stronger labor market attachment and childcare expansion improves employment for mothers with high propensity to use childcare.
 
 ### Nishitateno & Shikata (2017)
 - **Data**: Authors' own data set constructed at municipality level 2000, 2005, 2010 from Population Census and Survey of Welfare Institutions
@@ -107,6 +99,21 @@ Evidence is mixed. While Nishitateno & Shikata (2017) and Nishitateno (2019) fin
 - **Beta**: 
     - There is no correlation between childcare availability and maternal employment.
     - This is because mothers substitute accredited childcare facility by informal childcare arrangement provided by grandparents.
+
+### Yamaguchi et al. (2018)
+- **Data**: LSN21
+- **Sample restriction**: Children born January 10-17, 2001, July 10-17, 2001, and May 10-24, 2010
+- **Y**: Maternal labor market outcome
+    - Participation
+    - Hours worked
+    - Job type
+- **X**: Childcare use (instrumented by propensity score)
+- **Change in X**: 
+    - Since early 2000s, the government has supported the expansion of subsidized childcare.
+    - Local governments are responsible for the implementation.
+    - Variation came from different timing of program rollout.
+- **Beta**: 
+    - Mothers with large treatment effects have a weak unobserved propensity to use childcare.
 
 ### Takaku (2019)
 - **Data**: Japanese Panel Survey of Consumers 1993-2012
@@ -237,6 +244,6 @@ Rodríguez-planas, N. (2018). Gender Social Norms and Women ’ s Decision to Wo
 
 Takaku, R. (2019). The wall for mothers with first graders: availability of afterschool childcare and continuity of maternal labor supply in Japan. Review of Economics of the Household, 17(1), 177–199. https://doi.org/10.1007/s11150-017-9394-9
 
+Yamaguchi, S. (2003). Effects of Parental Leave Policies on Female Career and Fertility Choices. Center for Economic Institutions, 28. http://hdl.handle.net/10086/13885
+
 Yamaguchi, S. (2019). Effects of parental leave policies on female career and fertility choices. Quantitative Economics, 10(3), 1195–1232. https://doi.org/10.3982/qe965
-
-
