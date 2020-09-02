@@ -214,6 +214,52 @@ More family-friendly working arrangement can increase female employment. (Kodama
     - Female employment increases by 3.6 percent.
 
 ***
+## Elderly Care
+
+### Fu et al. (2017)
+- **Data**: Comprehensive Survey of Living Conditions 1995-2013
+- **Sample restriction**: 
+    - Main caregivers age 30 or older to old persons age 65+
+- **Y**: Labor force participation of caregiver
+- **X**: long-term care insurance (LTCI)
+- **Change in X**:
+    - 2000 LTCI was introduced.
+    - 2006 Some recipients became ineligible to some long-term care services.
+- **Beta**:
+    - Introduction of LTCI increases the probability of female (male) labor force participation by 3.7 percent (15.8 percent).
+    - 2006 Amendment reduces the probability of female (male) labor force participation by 7.7 percent (1.8 percent).
+
+### Kondo (2017)
+- **Data**: 
+    - Population Census 2000, 2010
+    - Survey of Institutions and Establishments for Long-term Care
+    - Labor Force Survey 2002-2010
+    - Employment Status Survey 2002-2010
+- **Sample restriction**: 
+    - Individuals surveyed in October, November, or December (since the capacity of long-term care facilities is measured on October 1st)
+    - Respondents who are 45-60 years old
+- **Y**: Labor supply of middle-aged men and women
+    - employment
+    - full-time employment
+    - regular employment
+    - job separation within a year
+- **X**: Long-term care availability
+    - Service (daycare, short-term stay, the specified institutions covered by the long-term care insurance system, other residential facilities) capacity per population over 75
+- **Change in X**:
+    - regional variation in the supply of long-term care facilities
+- **Beta**:
+    - No impact
+
+### Nishimura & Oikawa (2020)
+- **Data**: Japanese Study of Aging and Retirement 2007, 2009, 2011, 2013
+- **Sample restriction**: 
+- **Y**: Labor force participation, hours worked per week
+- **X**: Informal care
+- **Change in X**: Informal care is instrumented by the capacity of nursing care homes
+- **Beta**:
+    - Expansion of public nursing care homes reduces the provision of informal care by non-regular female workers and thus increases their labor participation.
+    
+***
 ## References
 
 Asai, Y. (2012). Parental leave reforms and the employment of new mothers: Quasi-experimental evidence from Japan. Labour Economics, 36, 72–83. https://doi.org/10.1016/j.labeco.2015.02.007
