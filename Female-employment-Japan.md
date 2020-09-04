@@ -218,8 +218,7 @@ More family-friendly working arrangement can increase female employment. (Kodama
 
 ### Fu et al. (2017)
 - **Data**: Comprehensive Survey of Living Conditions 1995-2013
-- **Sample restriction**: 
-    - Main caregivers age 30 or older to old persons age 65+
+- **Sample restriction**: Main caregivers age 30 or older to old persons age 65+
 - **Y**: Labor force participation of caregiver
 - **X**: long-term care insurance (LTCI)
 - **Change in X**:
@@ -245,19 +244,18 @@ More family-friendly working arrangement can increase female employment. (Kodama
     - job separation within a year
 - **X**: Long-term care availability
     - Service (daycare, short-term stay, the specified institutions covered by the long-term care insurance system, other residential facilities) capacity per population over 75
-- **Change in X**:
-    - regional variation in the supply of long-term care facilities
-- **Beta**:
-    - No impact
+- **Change in X**: regional variation in the supply of long-term care facilities
+- **Beta**: No impact
 
 ### Nishimura & Oikawa (2020)
 - **Data**: Japanese Study of Aging and Retirement 2007, 2009, 2011, 2013
-- **Sample restriction**: 
+- **Sample restriction**: Married women aged 54 at first interview
 - **Y**: Labor force participation, hours worked per week
 - **X**: Informal care
 - **Change in X**: Informal care is instrumented by the capacity of nursing care homes
 - **Beta**:
-    - Expansion of public nursing care homes reduces the provision of informal care by non-regular female workers and thus increases their labor participation.
+    - Expansion of public nursing care homes reduces the provision of informal care by non-regular female workers.
+    - Informal care reduces labor force participation.
     
 ***
 ## References
@@ -270,17 +268,23 @@ Asai, Y., Kambayashi, R., & Yamaguchi, S. (2015). Crowding-Out Effect of Subsidi
 
 Asai, Y., Kambayashi, R., & Yamaguchi, S. (2015). Childcare availability, household structure, and maternal employment. Journal of the Japanese and International Economies, 38, 172–192. https://doi.org/10.1016/j.jjie.2015.05.009
 
+Fu, R., Noguchi, H., Kawamura, A., Takahashi, H., & Tamiya, N. (2017). Spillover effect of Japanese long-term care insurance as an employment promotion policy for family caregivers. Journal of Health Economics, 56, 103–112. https://doi.org/10.1016/j.jhealeco.2017.09.011
+
 Griffen, A. S., Nakamuro, M., & Inui, T. (2015). Fertility and maternal labor supply in Japan: Conflicting policy goals? Journal of the Japanese and International Economies, 38, 52–72. https://doi.org/10.1016/j.jjie.2015.04.003
 
 Kato, T., & Kodama, N. (2018). Deregulating Overtime Hours Restrictions on Women and its Effects on Female Employment: Evidence from a Natural Experiment in Japan. Oxford Bulletin of Economics and Statistics, 80(4), 804–821. https://doi.org/10.1111/obes.12221
 
 Kodama, N., Javorcik, B. S., & Abe, Y. (2018). Transplanting corporate culture across international borders: Foreign direct investment and female employment in Japan. World Economy, 41(5), 1148–1165. https://doi.org/10.1111/twec.12612
 
+Kondo, A. (2017). Availability of Long-term Care Facilities and Middle-aged People’s Labor Supply in Japan. Asian Economic Policy Review, 12(1), 95–112. https://doi.org/10.1111/aepr.12163
+
 Kureishi, W., Mckenzie, C., Sakata, K., & Wakabayashi, M. (2016). Does a Mother ’ s Early Return to Work after Childbirth Improve Her Future Employment Status ? Evidence Using the Birth Month of Japanese Babies 1.
 
 Nagase, N. (2018). Has Abe’s Womanomics Worked? Asian Economic Policy Review, 13(1), 68–101. https://doi.org/10.1111/aepr.12202
 
 Nagase, N. (2017). The Effect of Family-Friendly Policies on Fertility and Maternal Labor Supply. SSRN Electronic Journal. https://doi.org/10.2139/ssrn.2965185
+
+Nishimura, Y., & Oikawa, M. (2020). Who Has Benefited from Nursing Home Expansion in Japan ?: The Effects of Government Supply-Side Intervention in the Elderly Care Market Who Has Benefited from Nursing Home Expansion in Japan ?: The Effects of Government Supply-Side Intervention in the Eld. January.
 
 Nishitateno, S. (2019). Does privatization of daycare affect maternal employment? Applied Economics Letters, 26(18), 1524–1527. https://doi.org/10.1080/13504851.2019.1584359
 
