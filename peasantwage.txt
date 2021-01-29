@@ -1,0 +1,13 @@
+Possible explanations for why wage does not change after labor supply increases.
+
+1. Labor supply curve shifts outward. Wage decreases. Return to capital increases. Employer expands capital. Labor demand curve also shifts outward.
+Possible capital: tractor, thresher, machine to put in seeds/pesticide, sprinkler, lawnmower
+cf. Long-run impact of immigration
+
+2. Labor demand curve is elastic. -> Theoretically ambiguous
+
+3. Efficiency-wage : employer pays above subsistence level to ensure productivity through nutrition -> labor supply shock still changes the non-shirk labor supply curve -> wage goes down
+cf. Leibenstein (1957), Mazumdar (1959)
+
+4. Average product of labor: employer pays average product of labor because they want to attract farmers to not work in their family farms.
+cf. Lewis (1954) 

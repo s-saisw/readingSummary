@@ -18,7 +18,6 @@
         - Its advanage is that it is unaffected by firms' capital structure decision.
         - The number is also adjusted to industry(four-digit) specific.
     - Other measures for robustness check: Return on asset, Return on capital employed, Total assets, Likelihood of bankruptcy and liquidation
-- 
 
 ## Empirical Strategy
 - Since family CEO is endogenous, this paper uses gender of the first child of a departing CEO as IV.
@@ -31,7 +30,9 @@
         - Check validity by comparing firm and family characteristics between firms with male firstborn VS female firstborn
             - firm characteristics: profitability, age, size
             - family characteristics: number of children, spouses, divorce rate
-- The IV only estimates the average effect of family CEOs on the set of firms that respond to the instrument, i.e. only firms with male successor
+    - Advantage of this IV over having a male child as IV is that it is more random.
+- Dependent variable is the change in 3-year-average ROA before and after the transition.
+
 
 ## Results
 - Family CEOs reduce firm profitability by at least 4 percentage points.
@@ -43,6 +44,9 @@
     - However, death is not the preferred instrument because it can affect firms and families through other channels.
 - The difference in performance may come from measurement error in performance of firms with family CEOs.
     - e.g. family CEOs tend to divert cash flow to the family fund, resulting in smaller reported profit.
+- IV method only estimates the average effect of family CEOs on the set of firms that respond to the instrument, i.e. only firms with male successor, but not applicable to firms that select a CEO from other family members.
+    - Compare the quality of firstborn male CEOs VS family CEOs VS unrelated CEOs
+    - Unrelated CEOs are more skilled than firstborn male CEOs, but family CEOs are not different from family CEOs.
 
 ***
 ## Reference

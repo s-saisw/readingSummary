@@ -1,5 +1,7 @@
 # Female Employment in Japan
 
+Mendeley group: (Saisawat)female-employment-japan
+
 ## Parental leave policy
 
 <!--Most of the previous studies from Japan, including Higuchi (1994), Shigeno and Ookusa (1998), Suruga and Cho (2003), Imada and Ikeda (2006) and Sato and Ma (2007), have found that PL provision increases female employment. They use variation in leave availability across employers or leave-taking by employees, but their estimates are likely to suffer biases due to the self-selection into PL take-up and/or employers that offer generous PL. - Yamaguchi (2017)-->
@@ -216,18 +218,6 @@ More family-friendly working arrangement can increase female employment. (Kodama
 ***
 ## Elderly Care
 
-### Fu et al. (2017)
-- **Data**: Comprehensive Survey of Living Conditions 1995-2013
-- **Sample restriction**: Main caregivers age 30 or older to old persons age 65+
-- **Y**: Labor force participation of caregiver
-- **X**: long-term care insurance (LTCI)
-- **Change in X**:
-    - 2000 LTCI was introduced.
-    - 2006 Some recipients became ineligible to some long-term care services.
-- **Beta**:
-    - Introduction of LTCI increases the probability of female (male) labor force participation by 3.7 percent (15.8 percent).
-    - 2006 Amendment reduces the probability of female (male) labor force participation by 7.7 percent (1.8 percent).
-
 ### Kondo (2017)
 - **Data**: 
     - Population Census 2000, 2010
@@ -242,20 +232,52 @@ More family-friendly working arrangement can increase female employment. (Kodama
     - full-time employment
     - regular employment
     - job separation within a year
-- **X**: Long-term care availability
+- **X**: Long-term care capacity
     - Service (daycare, short-term stay, the specified institutions covered by the long-term care insurance system, other residential facilities) capacity per population over 75
 - **Change in X**: regional variation in the supply of long-term care facilities
 - **Beta**: No impact
+
+### Fu et al. (2017)
+- **Data**: Comprehensive Survey of Living Conditions 1995-2013
+- **Sample restriction**: Main caregivers age 30 or older to old persons age 65+
+- **Y**: Labor force participation of caregiver
+- **X**: long-term care insurance (LTCI)
+- **Delta X**:
+    - Introduction of LTCI in 2000
+    - LTCI Amendment in 2006: some recipients became ineligible to some long-term care services.
+- **Beta**:
+    - beta coefficients are treatment effects from propensity score matching DID estimator. The propensity score is calculated based on 
+        - individual characteristics
+            - age
+            - marital status
+            - whether the person is a regular outpatient
+            - self-rated health
+            - subjective symptoms
+        - household characteristics
+            - whether the person owns a house
+            - whether the person is within a three-generation household
+            - number of household members
+            - monthly household expenditures
+        - health status of the old-person being cared for
+            - self-rated health statuses of old persons
+    - Effects vary by gender and age
+        - Introduction of LTCI (Table 5)
+            - increases female labor force participation rate by 0.037pp (p<0.01)
+            - increases labor force participation of 30-49, 50-64, 65+ years old by 0.087, 0.063, 0.051pp (p<0.01 for all estimates)
+        - The 2006 Amendment (Table 6)
+            - reduces female labor force participation by -0.077pp (p<0.1)
+            - reduces labor force participation of 30-49, 50-64, 65+ years old by -0.214, -0.118 (p<0.1), -0.017pp (p>0.1) 
 
 ### Nishimura & Oikawa (2020)
 - **Data**: Japanese Study of Aging and Retirement 2007, 2009, 2011, 2013
 - **Sample restriction**: Married women aged 54 at first interview
 - **Y**: Labor force participation, hours worked per week
-- **X**: Informal care
-- **Change in X**: Informal care is instrumented by the capacity of nursing care homes
+- **X**: Informal care (instrumented by nursing care capacity)
+- **Delta Z**: Nursing care capacity increases by approximately 20% (Tokuyo) and 10% (Roken) (Figure 3)
 - **Beta**:
-    - Expansion of public nursing care homes reduces the provision of informal care by non-regular female workers.
-    - Informal care reduces labor force participation.
+    - beta coefficient represents the IV estimate
+    - First stage: 1pp increase in capacity of public nursing care homes reduces the provision of informal care by 1-3pp(Table 7).
+    - Second stage: Informal care reduces the share of individuals working for pay by -0.101pp (OLS) and -0.112pp (IV, not statistically significant at 10%) (Table 10).
     
 ***
 ## References
