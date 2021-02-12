@@ -1,0 +1,14 @@
+This is BibTeX, Version 0.99dThe top-level auxiliary file: V4-1_decompositionMethodsInEconomics.aux
+The style file: abbrvnat.bst
+Illegal, another \bibstyle command---line 32 of file V4-1_decompositionMethodsInEconomics.aux
+ : \bibstyle
+ :          {apacite}
+I'm skipping whatever remains of this command
+I couldn't open database file .bib
+---line 33 of file V4-1_decompositionMethodsInEconomics.aux
+ : \bibdata{
+ :          }
+I'm skipping whatever remains of this command
+I found no \citation commands---while reading file V4-1_decompositionMethodsInEconomics.aux
+I found no database files---while reading file V4-1_decompositionMethodsInEconomics.aux
+(There were 4 error messages)

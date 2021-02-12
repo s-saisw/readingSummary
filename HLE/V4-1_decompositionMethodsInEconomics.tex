@@ -1,0 +1,311 @@
+\documentclass[a4paper, 12pt]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[english]{babel}
+\usepackage{apacite}
+\usepackage{fancyhdr}
+\usepackage{geometry}
+%\usepackage{hyperref}
+\usepackage[hidelinks]{hyperref}
+\usepackage{amsmath, amsthm, amssymb, amsfonts}
+\usepackage{bbm}
+\usepackage{marginnote}
+\geometry{ left=20mm, right=20mm, top=20mm,bottom=20mm, marginparwidth=35mm}
+\usepackage{graphicx}
+\usepackage{multicol}
+\usepackage{natbib}
+\bibliographystyle{abbrvnat}
+\graphicspath{ {/school/printscreen/}}
+
+\renewcommand{\vec}[1]{\mathbf{#1}}
+
+\linespread{1}
+
+\newcommand{\R}{\mathbb{R}}
+\newcommand{\N}{\mathbb{N}}
+\newcommand{\E}{\mathbb{E}}
+\newcommand{\ind}{\mathbbm{1}}
+
+\newtheorem*{assumption*}{\assumptionnumber}
+\providecommand{\assumptionnumber}{}
+\makeatletter
+\newenvironment{assumption}[2]
+ {%
+  \renewcommand{\assumptionnumber}{Assumption #1 \textit{(#2)}}%
+  \begin{assumption*}%
+  \protected@edef\@currentlabel{#1}%
+ }
+ {%
+  \end{assumption*}
+ }
+\makeatother
+
+\newtheorem*{prop*}{\propnumber}
+\providecommand{\propnumber}{}
+\makeatletter
+\newenvironment{prop}[2]
+ {%
+  \renewcommand{\propnumber}{Proposition #1 \textit{(#2)}}%
+  \begin{prop*}%
+  \protected@edef\@currentlabel{#1}%
+ }
+ {%
+  \end{prop*}
+ }
+\makeatother
+
+
+\begin{document}
+\pagestyle{fancy}
+\setlength{\parindent}{5ex}
+\setlength{\columnseprule}{0.5pt}
+
+\title{Summary:
+\\Chapter 1 Decomposition Methods in Economics \\
+\large Nicole Fortin et al.
+}
+\author{https://github.com/s-saisw/readingSummary}
+\date{\today}
+\maketitle
+
+\rhead{Decomposition Methods in Economics }
+\textbf{Review} \\
+
+\begin{flushright}
+Keywords: 
+\end{flushright}
+
+\section{Introduction}
+\begin{itemize}
+\item Decomposition methods are often used to examine differences between two groups e.g. wage gap between union VS non-union members, races, men VS women etc.
+\item Limits of decomposition methods:
+\begin{itemize}
+\item Decomposition methods follow a partial equilibrium approach, ignoring the general equilibrium effect.
+\item Decomposition methods do not seek to recover ``deep'' structural parameters.
+\end{itemize}
+\item Setting: suppose there are 2 groups ($g$), A and B. Assume that 
+\begin{enumerate}
+\item Outcome variable $Y$ is linearly correlated to covariates $X$.
+\item Error term $\nu$ is conditionally dependent of $X$, i.e. $\E(\nu_{gi}|X_i)=0$.
+\end{enumerate}
+\begin{equation}
+Y_{gi}= \beta_{g0} + \sum_{k=1}^K X_{ik} \beta_{gk} + \nu_{gi}, \text{ } g=A,B
+\end{equation}
+\par Then the average difference between 2 groups, $\hat{\Delta}_O^\mu$, can be written as
+\begin{align*}
+\hat{\Delta}_O^\mu 
+=& 
+\hat{\beta}_{B0} + \sum_{k=1}^K \bar{X}_{Bk}\hat{\beta}_{Bk}
+- 
+(
+\hat{\beta}_{A0} + \sum_{k=1}^K \bar{X}_{Ak} \hat{\beta}_{Ak}
+) \\
+=&
+\hat{\beta}_{B0} -\hat{\beta}_{A0}
++ 
+\sum_{k=1}^K \bar{X}_{Bk}\hat{\beta}_{Bk}
+- 
+\sum_{k=1}^K \bar{X}_{Ak} \hat{\beta}_{Ak}
+-
+\sum_{k=1}^K \bar{X}_{Bk}\hat{\beta}_{Ak}
++
+\sum_{k=1}^K \bar{X}_{Bk}\hat{\beta}_{Ak} \\
+=&
+\left[
+(
+\hat{\beta}_{B0} -\hat{\beta}_{A0}
+)
++ 
+\sum_{k=1}^K \bar{X}_{Bk}
+(
+\hat{\beta}_{Bk}
+-
+\hat{\beta}_{Ak}
+)
+\right]
++
+\sum_{k=1}^K (
+\bar{X}_{Bk}
+- 
+\bar{X}_{Ak} 
+)
+\hat{\beta}_{Ak} \\
+=& 
+\hat{\Delta}_S^\mu + \hat{\Delta}_X^\mu,
+\end{align*}
+where $\hat{\Delta}_S^\mu$ is the \emph{unexplained (structural) part}, and $\hat{\Delta}_X^\mu$ the \emph{explained} (by covariates $X$) part.
+\item \emph{Aggregate decomposition} refers to decomposing $\hat{\Delta}_O^\mu  = \hat{\Delta}_S^\mu + \hat{\Delta}_X^\mu$, while \emph{detailed decomposition} refers to subdividing the effect for each $k=1, ..., K$
+\item Take away messages from this chapter
+\begin{enumerate}
+\item The wage structure effect can be interpreted as a treatment effect.
+\item Going beyond the mean is a ``solved'' problem for aggregate decomposition.
+\item  Going beyond the mean is more difficult for the detailed decomposition.
+\item The analogy between quantile and standard (mean) regressions is not helpful.
+\item Decomposing proportions is easier than decomposing quantiles.
+\item There is no general solution to the ``omitted'' group problem.
+\end{enumerate}
+\end{itemize}
+
+\section{Identification}
+\begin{assumption}{1}{Mutually Exclusive Groups}
+The population of agents can be divided into two mutually exclusive groups: $A$ and $B$. Thus, for an agent $i$, $D_{Ai} + D_{Bi}=1$, where $D_{gi}=\ind \{i\text{ is in }g\}$.
+\end{assumption}
+
+\begin{itemize}
+\item This rules out decomposing wage differentials between overlapping groups e.g. Blacks, Whites, and Hispanics, who can be Black or White. (In this case, dummy variable method is a more natural approach.)
+\item Overall, this assumption is not very restrictive.
+\end{itemize}
+
+\subsection{Aggregate decomposition}
+We would like to decompose the observable ``overall difference'' (e.g. wage gap) into ``four decomposition terms'' under ``overlapping support assumption'' and ``ignorability assumption''.
+\subsubsection{Overall difference}
+\begin{itemize}
+\item Let the distributional statistic of interest be $v(F_{Y_g|D_s})$, where $v:F \rightarrow \R$. $F_{Y_g|D_s}$ can be both observed (when $g=s$) and counterfactual (when $g \neq s$) distributions.
+\item The overall $v$-difference in wages between the two groups in terms of the distributional statistic $v$ is
+\begin{equation}
+\Delta^v_O = v(F_{Y_B|D_B}) - v(F_{Y_A|D_A})
+\end{equation}
+\begin{itemize}
+\item Overall difference is generally not what we want to uncover. We are more interested in the counterfactuals, e.g. what if group $A$ workers' pay follow group $B$ workers' wage profile.
+\end{itemize}
+\end{itemize}
+
+\begin{assumption}{2}{Structural Form}
+A worker $i$ from group $g$ is paid according to the wage structure $m_g$, which are functions of worker $i$'s observable ($X$) and unobservable ($\epsilon$) characteristics.
+\begin{equation}
+Y_{Ai} = M_A(X_i, \epsilon) \ \text{and} \ Y_{Bi} = M_B(X_i, \epsilon)
+\end{equation}
+\end{assumption}
+
+\begin{itemize}
+\item This assumption implies there are only 3 sources of wage differentials
+\begin{enumerate}
+\item wage setting functions $m$
+\item distribution of $X$
+\item distribution of $\epsilon$
+\end{enumerate}
+\end{itemize}
+
+\begin{assumption}{3}{Simple Counterfactual Treatment} A counterfactual wage structure for workers in group $B$, $m^c(\cdot, \cdot) \equiv m_A(\cdot, \cdot)$, and vice versa. 
+\end{assumption}
+
+\begin{itemize}
+\item For example, counterfactual wage of a worker in group $B$ is $Y^C_{A|D_B, i}=m^C(X_i, \epsilon_i)=m_A(X_i, \epsilon_i)$.
+\item This assumption rules out the existence of another counterfactual wage distribution e.g. what would happen to the pay structure of female in a world in which there is no gender.
+\item This assumption makes decomposition framework a partial equilibrium framework.
+\end{itemize}
+
+\subsubsection{Four decomposition terms}
+\begin{itemize}
+\item Overall difference between two groups can be attributed to
+\begin{enumerate}
+\item Differences in returns to $X$
+\item Differences in returns to $\epsilon$
+\item Differences in the distribution of $X$
+\item Differences in the distribution of $\epsilon$
+\end{enumerate}
+
+\item 1 and 2 can be summed up as structural difference, $\Delta^v_s$. This is also called ``$v$-wage structure effect.'' Then we have
+\begin{equation}
+\Delta^v_O = \Delta^v_s + \Delta^v_X + \Delta^v_\epsilon.
+\end{equation} 
+\end{itemize}
+
+\subsubsection{Overlapping support}
+\begin{assumption}{4}{Overlapping Support} Let the support of wage setting factors $[X', \epsilon']'$ be $\mathcal{X} \times \mathcal{E} $. For any $[x', e']'$ in $\mathcal{X} \times \mathcal{E} $, $0<\Pr[D_B=1|X=x, \epsilon = e]<1$.
+\end{assumption}
+
+\begin{itemize}
+\item This assumption implies there is no $X=x$ or $\epsilon =e$ that divides the population into groups. A counter example is when only high-ability people are union workers and only low-ability people are non-union workers.
+\item In the decomposition of gender wage differential, this assumption is often violated.
+\end{itemize}
+
+\subsubsection{Ignorability}
+\begin{itemize}
+\item Because there are some unobserved components involved, even if we fix the distribution of $X$ to be the same across 2 groups, we do not observe what would happen to $\epsilon$. Thus, we need to impose a further assumption to make sure that changes in $X$ are not confounded by changes in $\epsilon$.
+\item For workers in group $B$, observed wage follows the following distribution
+\begin{equation}
+F_{Y_B|D_B}(y) = \int F_{Y_B|X,D_B}(y|X=x) \cdot dF_{X|D_B}(x)
+\label{eq:actualwage}
+\end{equation}
+The counterfactual wage follows
+\begin{equation}
+F_{Y^C_A|X=X:D_B}(y) = \int F_{Y_A|X,D_A}(y|X=x) \cdot dF_{X|D_B}(x).
+\label{eq:counterwage}
+\end{equation}
+That is, we integrate the counterfactual distribution over the distribution of observable characteristics of workers in group $B$\footnote{Note that we can easily replace $F_{Y_B|X,D_B}(y|X=x)$ with $F_{Y_A|X,D_A}(y|X=x)$ under simple counterfactual assumption.}.
+
+\item Consider the RHS. For $g=A, B$, conditional distribution is defined as follows.
+\begin{equation}
+F_{Y_g|X,D_g}(y|X=x) = 
+\Pr
+(
+m_g(X,\epsilon)
+\leq
+y
+|
+X=x, D_g=1
+)
+\label{eq:wagedist}
+\end{equation}
+
+\item According to \eqref{eq:wagedist}, the distribution of wages depends only on the distribution of $\epsilon$ and the wage structure $m_g(\cdot)$. Therefore, when we replace the conditional distribution on the RHS of \eqref{eq:actualwage} with the counterfactual one as in \eqref{eq:counterwage}, we are replacing both functional form and distribution of $\epsilon$. $\Rightarrow$ We need to separate the two from each other, i.e. ignorability assumption
+
+\end{itemize}
+
+\begin{assumption}{5}{Ignorability/Conditional independence}
+For $g=A, B$, let $(D_g, X, \epsilon)$ have a joint distribution. For all $x$ in $\mathcal{X}$, $D_g \perp \epsilon|X$. 
+\end{assumption}
+
+\begin{itemize}
+\item It implies that $\Delta^v_S = v(F_{Y_B|D_B})-v(F_{Y_A^C:X=X|D_B})$, i.e. difference between actual and counterfactual depends solely on wage structure (i.e. structural functions $m_B(\cdot,\cdot)$ and $m_A(\cdot,\cdot)$).
+\item This assumption is often called ``unconfoundedness'' or ``selection on observables'' in the program evaluation literature.
+\item It is somewhat strong assumption. There are 3 cases under which it may not hold.
+\begin{enumerate}
+\item Differential selection into labor marker \\
+The decision to participate may be different for men and women.
+\item Self-selection into groups A and B based on unobservables.
+\item Choice of $X$ and $\epsilon$.
+\end{enumerate}
+\end{itemize}
+
+\begin{prop}{1}{Identification of the Aggregate Decomposition}
+Under simple counterfactual, overlapping support, and ignorability, the overall $v$-gap can be written as
+$$
+\Delta^v_O = \Delta^v_s + \Delta^v_X,
+$$
+where
+\begin{enumerate}
+\item $\Delta^v_S = v(F_{Y_B|D_B})-v(F_{Y_A^C:X=X|D_B})$, i.e. wage structure term solely reflects the difference between the structural functions $m_B(\cdot,\cdot)$ and $m_A(\cdot,\cdot)$.
+\item $\Delta^v_X = v(F_{Y_A^C:X=X|D_B}) - v(F_{Y_A|D_A})$, i.e. composition effect term solely reflects the difference between the $X$ and $\epsilon$ between 2 groups.
+\end{enumerate}
+\end{prop}
+\begin{itemize}
+\item Explanation:
+\begin{itemize}
+\item $v(F_{Y_B|D_B})-v(F_{Y_A^C:X=X|D_B})$ is the difference of two distributions that have different shapes but the same $X$s. 
+\item $v(F_{Y_A^C:X=X|D_B}) - v(F_{Y_A|D_A})$ is the difference of two distributions that have the same shape but different $X$s. 
+\end{itemize}
+
+\item Note that 
+\begin{align*}
+\Delta^v_O 
+=& v(F_{Y_B|D_B}) - v(F_{Y_A|D_A}) \\
+=& v(F_{Y_B|D_B})-v(F_{Y_A^C:X=X|D_B}) + v(F_{Y_A^C:X=X|D_B}) - v(F_{Y_A|D_A}) \\
+=&
+\Delta^v_S + \Delta^v_X \\
+\end{align*}
+\end{itemize}
+
+\begin{assumption}{6}{Invariance of Conditional Distributions}
+When replace the conditional distribution of \eqref{eq:actualwage} as in \eqref{eq:counterwage}, $F_{Y_A|X,D_A}(y|X=x)$ remains valid for any $x \in \mathcal{X}$
+\end{assumption}
+
+\begin{itemize}
+\item This assumption is not empirically testable. Thus, it must be justified using the economic context.
+\end{itemize}
+
+\bibliographystyle{apacite}
+\bibliography{} 
+
+
+\end{document}

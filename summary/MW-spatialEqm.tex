@@ -1,0 +1,155 @@
+\documentclass[a4paper, 12pt]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[english]{babel}
+\usepackage{apacite}
+\usepackage{fancyhdr}
+\usepackage{geometry}
+%\usepackage{hyperref}
+\usepackage[hidelinks]{hyperref}
+\usepackage{amsmath, amsthm, amssymb, amsfonts}
+\usepackage{marginnote}
+\geometry{ left=20mm, right=20mm, top=20mm,bottom=20mm, marginparwidth=35mm}
+\usepackage{graphicx}
+\usepackage{caption}
+\usepackage{subcaption}
+\usepackage{multicol}
+\usepackage{natbib}
+\bibliographystyle{apacite}
+\graphicspath{ {/school/printscreen/}}
+
+\renewcommand{\vec}[1]{\mathbf{#1}}
+\newcommand{\ubar}[1]{\text{\b{$#1$}}}
+\linespread{1}
+
+\newcommand{\R}{\mathbb{R}}
+\newcommand{\N}{\mathbb{N}}
+
+\newcommand\fnote[1]{\captionsetup{font=small}\caption*{ #1}}
+
+\begin{document}
+\pagestyle{fancy}
+\setlength{\parindent}{5ex}
+\setlength{\columnseprule}{0.5pt}
+
+\title{Summary:
+\\Minimum Wages and Spatial Equilibrium\\
+\large Journal of Labor Economics, 2019, Vol. 37, no. 3 \\
+\large Joan Monras
+}
+\author{\url{https://github.com/s-saisw/readingSummary}}
+\date{\today}
+\maketitle
+
+\rhead{Minimum Wages and Spatial Equilibrium}
+\lhead{}
+
+\section{Model}
+\begin{itemize}
+\item There are two regions: Region 1 and Region 2.
+\item Each region has a population of $P_i$, where $i \in \{1,2\}$ and $P_1+P_2 = 1$
+\item Assumptions
+	\begin{itemize}
+	\item Amenity levels are equal across regions.
+	\item Product demands are not necessarily local.
+	\item Home market effects (?)
+	\item There is no congestion except from the one coming from the labor market.
+	\end{itemize}
+
+\end{itemize}
+
+\subsection{Labor demand}
+Firm maximizes
+\begin{equation}
+\max_{K_i,L_i} AF(K_i, L_i) - r_i K_i - w_i L_i
+\end{equation}
+Therefore,
+\begin{equation}
+AF_l(\bar{K}_i, L_i) = w_i.
+\end{equation}
+It follows that
+\begin{equation}
+\frac{\partial w_i}{\partial L_i} = \frac{A\partial F_l}{\partial L_i}<0.
+\end{equation}
+When people move into one region, they exert downward pressure on wage.
+
+\subsection{Mobility decision}
+Indirect utility is given by
+\begin{equation}
+V_i = u_iB_i^\rho + (1-u_i)(1-\tau_i)^\rho w_i^\rho,
+\end{equation}
+where \\
+$u$ : probability of unemployment \\
+$B$ : unemployment benefits \\
+$\tau$ : tax rate \\
+$w$ : wage \\
+$\rho$ : risk aversion (when $\rho = 1$, workers are risk neutral)
+
+\subsection{Equilibrium}
+Workers are indifferent between living in Region 1 or Region 2. That is 
+$$V_1 = V_2.$$
+
+\subsection{Government Budget Constraint}
+When unemployment benefits are locally funded,
+\begin{equation}
+(P_i - L_i)B_i = \tau_iw_iL_i.
+\end{equation}
+When unemployment benefits are nationally funded,
+\begin{equation}
+(P_1 - L_1)B_1 + (P_2 - L_2)B_2= \tau_1w_1L_1 + \tau_2w_2L_2.
+\end{equation}
+
+\subsection{Equilibrium without Minimum Wages}
+
+There is no unemployment or tax in both regions. Then for any $i$, $V_i = w_i^\rho$. Therefore, at equilibrium,
+\begin{align*}
+w_1 =& w_2 \\
+F_l(\bar{K}_1, L^{FME}_1) =& F_l(\bar{K}_2, L^{FME}_2)
+\end{align*}
+
+\subsection{Equilibrium with Minimum Wages}
+Introduce minimum wage to Region 1. In Region 2, there is still no unemployment.
+\subsubsection{Locally Funded Employment Benefits}
+
+At equilibrium,
+$$
+u_1B_1^\rho + (1-u_1)(1-\tau_1)^\rho \ubar{w}_1^\rho =
+w_2^\rho.
+$$
+
+By government budget constraint, $B_1 = \frac{\tau_1w_1L_1}{P_1-L_1}$ and $u_1 = \frac{P_1 - L_1}{P_1}$. Then,
+
+\begin{equation}
+\ubar{w}_1^\rho [
+u_1^{1-\rho}(1-u_1)^\rho\tau_1^\rho+(1-u_1)(1-\tau_1)^\rho
+] =
+w_2^\rho.
+\label{eq:eqm_local}
+\end{equation}
+
+This means expected utility is the minimum wage weighted by the relative employment loss.
+
+\textbf{Proposition 1:} When unemployment benefits are financed locally, there is a threshold value of the labor demand elasticity ($\epsilon_1$) above which Region 1 loses population when minimum wages increase ($\partial P_1/\partial \ubar{w}_1 < 0$).
+
+\textbf{Intuition:} When $\epsilon_1$ is small, employment loss is small and people move into Region 1. On the other hand, when $\epsilon_1$ is large, employment effects do not compensate for higher wage.
+
+\subsubsection{Nationally Funded Employment Benefits}
+Unlike the previous case, now workers in Region 2 also pay for unemployment in Region 1 through tax transfers. At equilibrium,
+\begin{equation}
+u_1B_1^\rho + (1-u_1)(1-\tau_1)^\rho \ubar{w}_1^\rho =
+(1-\tau)^\rho w_2^\rho.
+\label{eq:eqm_national}
+\end{equation}
+
+\textbf{Proposition 2:} When unemployment benefits are financed nationally, Region 1 may gain population if unemployment benefits are sufficiently high, irrespective of the local labor demand elasticity. In general, however, Region 1 gains or loses population depending on the local labor demand elasticity. That is, there is a threshold value of the labor demand elasticity above which Region 1 loses population when minimum wages increase.
+
+\textbf{Intuition:} When unemployment benefits are not zero, there is a transfer from Region 2 to Region 1. If this is high enough, Region 1 can become more attractive. On the other hand, when there is no unemployment benefits, \eqref{eq:eqm_national} reduces to \eqref{eq:eqm_local}.
+
+\section{Empirical Evidence}
+\begin{itemize}
+\item Data: CPS 1962--2013
+\item Sample restriction: High-school graduates
+\item Empirical strategy: event study design
+\item Independent variables: in-migration, out-migration, low-skilled in-migration rate relative to high-skilled in-migration rate, low-skilled out-migration rate relative to high-skilled out-migration rate
+\end{itemize}
+
+\end{document}
