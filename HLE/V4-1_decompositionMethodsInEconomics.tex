@@ -221,7 +221,7 @@ Y_{Ai} = M_A(X_i, \epsilon) \ \text{and} \ Y_{Bi} = M_B(X_i, \epsilon)
 
 \subsubsection{Ignorability}
 \begin{itemize}
-\item Because there are some unobserved components involved, even if we fix the distribution of $X$ to be the same across 2 groups, we do not observe what would happen to $\epsilon$. Thus, we need to impose a further assumption to make sure that changes in $X$ are not confounded by changes in $\epsilon$.
+\item $X$ may be correlated with $\epsilon$. 
 \item For workers in group $B$, observed wage follows the following distribution
 \begin{equation}
 F_{Y_B|D_B}(y) = \int F_{Y_B|X,D_B}(y|X=x) \cdot dF_{X|D_B}(x)
